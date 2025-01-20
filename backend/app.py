@@ -1,5 +1,5 @@
-from flask import Flask, request, jsonify
-from flask_cors import CORS  # Enable CORS
+from flask import Flask, request, jsonify, send_from_directory
+from flask_cors import CORS
 import bcrypt
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad, unpad
@@ -25,6 +25,15 @@ aes_key = get_random_bytes(16)
 # Helper function to log events
 def log_event(event):
     logging.info(event)
+
+# Serve the frontend files
+@app.route('/<path:path>')
+def serve_frontend(path):
+    return send_from_directory('frontend', path)
+
+@app.route('/')
+def home():
+    return send_from_directory('frontend', 'index.html')
 
 # Login endpoint
 @app.route('/login', methods=['POST'])
