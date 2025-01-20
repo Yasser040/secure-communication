@@ -97,3 +97,8 @@
 2025-01-20 00:59:10,123 -  * Restarting with watchdog (windowsapi)
 2025-01-20 00:59:10,668 -  * Debugger is active!
 2025-01-20 00:59:10,673 -  * Debugger PIN: 316-301-566
+2025-01-20 02:01:31,688 -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Bureau\\secure-communication\\backend\\app.py', reloading
+2025-01-20 02:01:31,690 -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Bureau\\secure-communication\\backend\\app.py', reloading
+2025-01-20 02:01:32,537 -  * Restarting with watchdog (windowsapi)
+2025-01-20 02:01:33,240 -  * Debugger is active!
+2025-01-20 02:01:33,243 -  * Debugger PIN: 316-301-566
