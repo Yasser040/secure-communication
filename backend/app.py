@@ -29,11 +29,11 @@ def log_event(event):
 # Serve the frontend files
 @app.route('/<path:path>')
 def serve_frontend(path):
-    return send_from_directory('frontend', path)
+    return send_from_directory('../frontend', path)
 
 @app.route('/')
 def home():
-    return send_from_directory('frontend', 'index.html')
+    return send_from_directory('../frontend', 'index.html')
 
 # Login endpoint
 @app.route('/login', methods=['POST'])
