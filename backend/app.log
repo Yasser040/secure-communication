@@ -1,0 +1,99 @@
+2025-01-20 00:12:52,497 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-20 00:12:52,498 - [33mPress CTRL+C to quit[0m
+2025-01-20 00:12:52,505 -  * Restarting with watchdog (windowsapi)
+2025-01-20 00:12:53,062 -  * Debugger is active!
+2025-01-20 00:12:53,065 -  * Debugger PIN: 316-301-566
+2025-01-20 00:13:44,428 - Message sent: Hello, secure world!
+2025-01-20 00:13:44,429 - 127.0.0.1 - - [20/Jan/2025 00:13:44] "POST /send HTTP/1.1" 200 -
+2025-01-20 00:14:04,435 -  * Detected change in 'C:\\Users\\LENOVO\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+2025-01-20 00:14:04,444 - 127.0.0.1 - - [20/Jan/2025 00:14:04] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+2025-01-20 00:14:05,547 -  * Restarting with watchdog (windowsapi)
+2025-01-20 00:14:06,122 -  * Debugger is active!
+2025-01-20 00:14:06,125 -  * Debugger PIN: 316-301-566
+2025-01-20 00:14:28,864 - Message sent: Hello, secure world!
+2025-01-20 00:14:28,864 - 127.0.0.1 - - [20/Jan/2025 00:14:28] "POST /send HTTP/1.1" 200 -
+2025-01-20 00:15:31,779 - Message received and decrypted: Hello, secure world!
+2025-01-20 00:15:31,779 - 127.0.0.1 - - [20/Jan/2025 00:15:31] "POST /receive HTTP/1.1" 200 -
+2025-01-20 00:27:55,127 -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Bureau\\secure-communication\\backend\\app.py', reloading
+2025-01-20 00:27:55,129 -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Bureau\\secure-communication\\backend\\app.py', reloading
+2025-01-20 00:27:55,468 -  * Restarting with watchdog (windowsapi)
+2025-01-20 00:27:56,141 -  * Debugger is active!
+2025-01-20 00:27:56,147 -  * Debugger PIN: 316-301-566
+2025-01-20 00:31:20,111 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-20 00:31:20,112 - [33mPress CTRL+C to quit[0m
+2025-01-20 00:31:20,122 -  * Restarting with watchdog (windowsapi)
+2025-01-20 00:31:20,617 -  * Debugger is active!
+2025-01-20 00:31:20,620 -  * Debugger PIN: 316-301-566
+2025-01-20 00:33:37,623 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-20 00:33:37,623 - [33mPress CTRL+C to quit[0m
+2025-01-20 00:33:37,633 -  * Restarting with watchdog (windowsapi)
+2025-01-20 00:33:38,142 -  * Debugger is active!
+2025-01-20 00:33:38,145 -  * Debugger PIN: 316-301-566
+2025-01-20 00:34:34,355 - 127.0.0.1 - - [20/Jan/2025 00:34:34] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-20 00:34:37,271 - 127.0.0.1 - - [20/Jan/2025 00:34:37] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-20 00:34:38,754 - 127.0.0.1 - - [20/Jan/2025 00:34:38] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-20 00:34:38,919 - 127.0.0.1 - - [20/Jan/2025 00:34:38] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-20 00:34:39,139 - 127.0.0.1 - - [20/Jan/2025 00:34:39] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-20 00:35:08,489 - 127.0.0.1 - - [20/Jan/2025 00:35:08] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-20 00:35:09,781 - 127.0.0.1 - - [20/Jan/2025 00:35:09] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-20 00:35:09,974 - 127.0.0.1 - - [20/Jan/2025 00:35:09] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-20 00:35:11,078 - 127.0.0.1 - - [20/Jan/2025 00:35:11] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-20 00:35:11,270 - 127.0.0.1 - - [20/Jan/2025 00:35:11] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-20 00:35:11,466 - 127.0.0.1 - - [20/Jan/2025 00:35:11] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-20 00:35:12,448 - 127.0.0.1 - - [20/Jan/2025 00:35:12] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-20 00:35:12,629 - 127.0.0.1 - - [20/Jan/2025 00:35:12] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-20 00:35:12,807 - 127.0.0.1 - - [20/Jan/2025 00:35:12] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-20 00:35:12,995 - 127.0.0.1 - - [20/Jan/2025 00:35:12] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-20 00:35:13,190 - 127.0.0.1 - - [20/Jan/2025 00:35:13] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-20 00:35:13,389 - 127.0.0.1 - - [20/Jan/2025 00:35:13] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-20 00:35:13,603 - 127.0.0.1 - - [20/Jan/2025 00:35:13] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-20 00:35:13,832 - 127.0.0.1 - - [20/Jan/2025 00:35:13] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-20 00:36:01,000 - 127.0.0.1 - - [20/Jan/2025 00:36:01] "OPTIONS /send HTTP/1.1" 200 -
+2025-01-20 00:36:02,557 - 127.0.0.1 - - [20/Jan/2025 00:36:02] "OPTIONS /send HTTP/1.1" 200 -
+2025-01-20 00:40:54,280 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-20 00:40:54,281 - [33mPress CTRL+C to quit[0m
+2025-01-20 00:40:54,290 -  * Restarting with watchdog (windowsapi)
+2025-01-20 00:40:54,808 -  * Debugger is active!
+2025-01-20 00:40:54,811 -  * Debugger PIN: 316-301-566
+2025-01-20 00:41:31,561 - 127.0.0.1 - - [20/Jan/2025 00:41:31] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-20 00:41:31,772 - User user1 logged in successfully.
+2025-01-20 00:41:31,772 - 127.0.0.1 - - [20/Jan/2025 00:41:31] "POST /login HTTP/1.1" 200 -
+2025-01-20 00:41:56,251 - 127.0.0.1 - - [20/Jan/2025 00:41:56] "OPTIONS /send HTTP/1.1" 200 -
+2025-01-20 00:41:56,254 - Message sent: hello friends
+2025-01-20 00:41:56,254 - 127.0.0.1 - - [20/Jan/2025 00:41:56] "POST /send HTTP/1.1" 200 -
+2025-01-20 00:42:05,989 - 127.0.0.1 - - [20/Jan/2025 00:42:05] "OPTIONS /receive HTTP/1.1" 200 -
+2025-01-20 00:42:05,997 - Message received and decrypted: hello friends
+2025-01-20 00:42:05,997 - 127.0.0.1 - - [20/Jan/2025 00:42:05] "POST /receive HTTP/1.1" 200 -
+2025-01-20 00:42:15,692 - 127.0.0.1 - - [20/Jan/2025 00:42:15] "OPTIONS /send-with-hash HTTP/1.1" 200 -
+2025-01-20 00:42:15,695 - Message sent with hash: hello madame laila
+2025-01-20 00:42:15,695 - 127.0.0.1 - - [20/Jan/2025 00:42:15] "POST /send-with-hash HTTP/1.1" 200 -
+2025-01-20 00:42:53,654 - 127.0.0.1 - - [20/Jan/2025 00:42:53] "OPTIONS /receive-with-hash HTTP/1.1" 200 -
+2025-01-20 00:42:53,657 - Message integrity verified: hello madame laila
+2025-01-20 00:42:53,658 - 127.0.0.1 - - [20/Jan/2025 00:42:53] "POST /receive-with-hash HTTP/1.1" 200 -
+2025-01-20 00:42:59,824 - 127.0.0.1 - - [20/Jan/2025 00:42:59] "OPTIONS /receive-with-hash HTTP/1.1" 200 -
+2025-01-20 00:42:59,826 - Message integrity check failed: hello madame laila
+2025-01-20 00:42:59,826 - 127.0.0.1 - - [20/Jan/2025 00:42:59] "[31m[1mPOST /receive-with-hash HTTP/1.1[0m" 400 -
+2025-01-20 00:43:01,247 - Message integrity check failed: hello madame laila
+2025-01-20 00:43:01,247 - 127.0.0.1 - - [20/Jan/2025 00:43:01] "[31m[1mPOST /receive-with-hash HTTP/1.1[0m" 400 -
+2025-01-20 00:43:07,129 - 127.0.0.1 - - [20/Jan/2025 00:43:07] "OPTIONS /receive-with-hash HTTP/1.1" 200 -
+2025-01-20 00:43:07,158 - 127.0.0.1 - - [20/Jan/2025 00:43:07] "[35m[1mPOST /receive-with-hash HTTP/1.1[0m" 500 -
+2025-01-20 00:43:08,791 - 127.0.0.1 - - [20/Jan/2025 00:43:08] "[35m[1mPOST /receive-with-hash HTTP/1.1[0m" 500 -
+2025-01-20 00:43:08,976 - 127.0.0.1 - - [20/Jan/2025 00:43:08] "[35m[1mPOST /receive-with-hash HTTP/1.1[0m" 500 -
+2025-01-20 00:43:09,141 - 127.0.0.1 - - [20/Jan/2025 00:43:09] "[35m[1mPOST /receive-with-hash HTTP/1.1[0m" 500 -
+2025-01-20 00:43:09,364 - 127.0.0.1 - - [20/Jan/2025 00:43:09] "[35m[1mPOST /receive-with-hash HTTP/1.1[0m" 500 -
+2025-01-20 00:45:24,978 -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Bureau\\secure-communication\\backend\\app.py', reloading
+2025-01-20 00:45:25,294 -  * Restarting with watchdog (windowsapi)
+2025-01-20 00:45:25,899 -  * Debugger is active!
+2025-01-20 00:45:25,902 -  * Debugger PIN: 316-301-566
+2025-01-20 00:51:00,788 -  * Detected change in 'C:\\Users\\LENOVO\\anaconda3\\cwp.py', reloading
+2025-01-20 00:51:01,497 -  * Restarting with watchdog (windowsapi)
+2025-01-20 00:51:02,065 -  * Debugger is active!
+2025-01-20 00:51:02,070 -  * Debugger PIN: 316-301-566
+2025-01-20 00:59:09,902 -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Bureau\\secure-communication\\backend\\app.py', reloading
+2025-01-20 00:59:10,123 -  * Restarting with watchdog (windowsapi)
+2025-01-20 00:59:10,668 -  * Debugger is active!
+2025-01-20 00:59:10,673 -  * Debugger PIN: 316-301-566

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receive Message with Hash</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Receive Message with Hash</h1>
+    <form id="receiveWithHashForm">
+        <label for="encryptedMessage">Encrypted Message:</label>
+        <textarea id="encryptedMessage" name="encryptedMessage" required></textarea>
+        <label for="messageHash">Message Hash:</label>
+        <input type="text" id="messageHash" name="messageHash" required>
+        <button type="submit">Verify Integrity</button>
+    </form>
+    <p id="response"></p>
+
+    <script>
+        document.getElementById('receiveWithHashForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const encryptedMessage = document.getElementById('encryptedMessage').value;
+            const messageHash = document.getElementById('messageHash').value;
+
+            const response = await fetch('http://127.0.0.1:5000/receive-with-hash', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ encrypted_message: encryptedMessage, message_hash: messageHash })
+            });
+
+            const result = await response.json();
+            document.getElementById('response').innerText = result.message;
+            if (result.decrypted_message) {
+                document.getElementById('response').innerText += `\nDecrypted Message: ${result.decrypted_message}`;
+            }
+        });
+    </script>
+</body>
+</html>
