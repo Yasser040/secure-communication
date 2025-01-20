@@ -25,6 +25,10 @@ aes_key = get_random_bytes(16)
 # Helper function to log events
 def log_event(event):
     logging.info(event)
+    
+@app.route('/')
+def home():
+    return "Welcome to Secure Communication! Use the frontend to interact with the app."
 
 # Serve the frontend files
 @app.route('/<path:path>')
